@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MarioCore">
+      <UniqueIdentifier>{b50bfbab-81b9-481a-b48e-606e08d7035a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleLevel">
+      <UniqueIdentifier>{4401ea07-9009-4d82-8299-e6e572c2f18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleLevel\Actor">
+      <UniqueIdentifier>{b201fc18-91cb-45d7-8094-e50a2cea927e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{ccfb1748-8d5c-4cb9-8cb3-4cd5a0dae09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayLevel">
+      <UniqueIdentifier>{4d0dc4d5-b3cd-47ba-9bfb-a77cd3e0a40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayLevel\Actor">
+      <UniqueIdentifier>{fca62778-bd23-40a3-970e-64c95e22f224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayLevel\Actor\Player">
+      <UniqueIdentifier>{1f9f3230-79e0-4dc3-87ea-291e0eb00ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayLevel\Actor\Monster">
+      <UniqueIdentifier>{33549f06-0602-4354-910e-8655c4b6ddf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayLevel\Actor\Box">
+      <UniqueIdentifier>{ad69e73f-f88d-41db-8672-5168217395b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayLevel\Actor\Gate">
+      <UniqueIdentifier>{60cd6cf8-d1fc-495f-a722-5660a69f494f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayLevel\Actor\Item">
+      <UniqueIdentifier>{671bea04-206e-495a-a738-c4f0a7c1b941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{3ae4fd92-dba5-4ccb-9eee-04b03f357342}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TitleLevel.h">
+      <Filter>TitleLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioCore.h">
+      <Filter>MarioCore</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>TitleLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevel.h">
+      <Filter>PlayLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentsHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>PlayLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>PlayLevel\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Goomba.h">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Troopa.h">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>PlayLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>PlayLevel\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakBrick.h">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBox.h">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>PlayLevel\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Sunflower.h">
+      <Filter>PlayLevel\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="HiddenGate.h">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="HiddenCoin.h">
+      <Filter>PlayLevel\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="TiltedPipe.h">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalLevel.h">
+      <Filter>PlayLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Koopa.h">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdgeHandle.h">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakOne.h">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinFire.h">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="KoopaEvent.h">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="KoopaFire.h">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioFire.h">
+      <Filter>PlayLevel\Actor\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TitleLevel.cpp">
+      <Filter>TitleLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioCore.cpp">
+      <Filter>MarioCore</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>TitleLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevel.cpp">
+      <Filter>PlayLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentsHelper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>PlayLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>PlayLevel\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Goomba.cpp">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Troopa.cpp">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>PlayLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>PlayLevel\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakBrick.cpp">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBox.cpp">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>PlayLevel\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Sunflower.cpp">
+      <Filter>PlayLevel\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="HiddenGate.cpp">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="HiddenCoin.cpp">
+      <Filter>PlayLevel\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="TiltedPipe.cpp">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalLevel.cpp">
+      <Filter>PlayLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Koopa.cpp">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdgeHandle.cpp">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakOne.cpp">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinFire.cpp">
+      <Filter>PlayLevel\Actor\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="KoopaEvent.cpp">
+      <Filter>PlayLevel\Actor\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="KoopaFire.cpp">
+      <Filter>PlayLevel\Actor\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioFire.cpp">
+      <Filter>PlayLevel\Actor\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
