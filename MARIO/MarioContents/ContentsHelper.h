@@ -49,24 +49,10 @@ enum class EMonsterShootDir
 
 enum class EPlayState
 {
-	CameraFreeMove,
-	FreeMove,
 	Idle,
-	Run,
-	Reverse,
+	Move,
 	Jump,
-	Change,
-	GrowUp,
-	GrowDown,
-	ChangeRed,
-	HiddenStageEnter,
-	HiddenStageOut,
-	HiddenStageOutUp,
-	Die,
-	Kill,
-	FinishMove,
-	FinishReverse,
-	FinishWalk,
+	Reverse,
 	None,
 };
 

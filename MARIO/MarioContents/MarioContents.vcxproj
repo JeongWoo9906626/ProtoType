@@ -163,62 +163,7 @@
       <SubType>
       </SubType>
     </ClInclude>
-    <ClInclude Include="BirdgeHandle.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="BreakBrick.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="BreakOne.h" />
-    <ClInclude Include="Brick.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="Bridge.h" />
-    <ClInclude Include="Coin.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
     <ClInclude Include="ContentsHelper.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="FinalLevel.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="Flag.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="Gate.h" />
-    <ClInclude Include="Goomba.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="HiddenCoin.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="HiddenGate.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="ItemBox.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="Koopa.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="KoopaEvent.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="KoopaFire.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -234,25 +179,7 @@
       <SubType>
       </SubType>
     </ClInclude>
-    <ClInclude Include="Mushroom.h" />
-    <ClInclude Include="Pipe.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="Plant.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
     <ClInclude Include="PlayLevel.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="SpinFire.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="Sunflower.h" />
-    <ClInclude Include="TiltedPipe.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -264,10 +191,6 @@
       <SubType>
       </SubType>
     </ClInclude>
-    <ClInclude Include="Troopa.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
     <ClInclude Include="UI.h" />
   </ItemGroup>
   <ItemGroup>
@@ -275,62 +198,7 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="BirdgeHandle.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="BreakBrick.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="BreakOne.cpp" />
-    <ClCompile Include="Brick.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="Bridge.cpp" />
-    <ClCompile Include="Coin.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
     <ClCompile Include="ContentsHelper.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="FinalLevel.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="Flag.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="Gate.cpp" />
-    <ClCompile Include="Goomba.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="HiddenCoin.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="HiddenGate.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="ItemBox.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="Koopa.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="KoopaEvent.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="KoopaFire.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -346,25 +214,7 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="Mushroom.cpp" />
-    <ClCompile Include="Pipe.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="Plant.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
     <ClCompile Include="PlayLevel.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="SpinFire.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="Sunflower.cpp" />
-    <ClCompile Include="TiltedPipe.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -373,10 +223,6 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="TitleLogo.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="Troopa.cpp">
       <SubType>
       </SubType>
     </ClCompile>
